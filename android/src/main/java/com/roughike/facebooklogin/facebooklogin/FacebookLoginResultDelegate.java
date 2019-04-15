@@ -59,7 +59,7 @@ class FacebookLoginResultDelegate implements FacebookCallback<LoginResult>, Plug
                 pendingResult.success(result);
                 pendingResult = null;
             }
-        } catch (Expection e) {
+        } catch (Exception e) {
             return;
         }
     }
